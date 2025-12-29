@@ -73,6 +73,7 @@ P(accept) = exp(-Δscore / T)
 
 ## 🧩 System Design
 Config
+
 ├── Temperature schedule
 
 ├── Rotation resolution
@@ -80,6 +81,7 @@ Config
 └── Iteration limits
 
 TreePacker
+
 ├── greedy_placement()
 
 ├── simulated_annealing()
@@ -87,6 +89,7 @@ TreePacker
 └── geometry helpers
 
 Execution
+
 ├── Multi-strategy runs
 
 ├── Score tracking
